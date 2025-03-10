@@ -8,7 +8,7 @@ services:
     links:
       - redis
     ports:
-      - "3000:3000"  
+      - "1000:1000"  
     environment:
       DATABASE_URL: ${DATABASE_URL}
       SESSION_ID: ${SESSION_ID}
